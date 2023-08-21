@@ -10,7 +10,7 @@ Você pode visualizar como projeto ficou neste link: https://react-ignite-01.onr
 
 Clone o repositório com o seguinte comando:
 ```
-git clone https://github.com/jose-farley/React-Ignite-01.git
+git clone https://github.com/jose-farley/React-Ignite-02.git
 ```
 Entre na pasta do projeto que você acabou de clonar e use os seguintes comandos:
 ```
