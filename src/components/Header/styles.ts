@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
     display: flex;
@@ -15,16 +15,16 @@ export const HeaderContainer = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        color: ${props => {return props.theme["gray-100"]}};
+        color: ${props => {return props.theme["gray-100"];}};
 
         border-top: 3px solid transparent;
         border-bottom: 3px solid transparent;
         transition: color 0.4s;
         &:hover{     
-            border-bottom-color: ${props => {return props.theme["green-500"]}};
+            border-bottom-color: ${props => {return props.theme["green-500"];}};
         }
         &.active {
-            color: ${props => {return props.theme["green-500"]}};
+            color: ${props => {return props.theme["green-500"];}};
         }
     }
-` 
+`; 

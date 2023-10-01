@@ -12,19 +12,17 @@ export const GlobalStyle = createGlobalStyle`
 		return props.theme["green-500"];
 	}};
     }
+    body {
+        background-color: ${props => props.theme["gray-900"]};
+        color: ${props => props.theme["gray-300"]};
+        --webkit-font-smoothing:antialiased;
+    }
     body,input, textarea, button {     
-        color:white;
+        
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 1rem;
-        ${props => 
-	{
-		return `
-                background-color:${props.theme["gray-900"]};
-                color:${props.theme["gray-300"]};
-                `;
-	}
-}
+    
     }
 
 
